@@ -1,0 +1,40 @@
+@media (max-width: 767.98px) {
+  * {
+    font-size: 0.8rem;
+  }
+  .hero {
+    width: 30rem;
+  }
+  .hero h1 {
+    font-size: 2.3rem;
+    padding-bottom: 2rem;
+  }
+  .hero h1 span {
+    font-size: 2.3rem;
+  }
+  .left-addon input {
+    width: 18rem;
+    padding: 1rem 0 1rem 3rem;
+  }
+  .left-addon input::placeholder {
+    font-size: 0.9rem;
+  }
+  .hero h4 {
+    margin: 1rem 2rem 2rem;
+    font-size: 1.3rem;
+  }
+
+  .footer {
+    text-align: left;
+    margin-left: 2rem;
+  }
+  .footer h5 {
+    padding-top: 2rem;
+  }
+  .background h1 {
+    font-size: 2rem;
+  }
+  .background h3 {
+    font-size: 1rem;
+  }
+}

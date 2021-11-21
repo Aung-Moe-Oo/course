@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="resources/style.css" />
+    <link rel="stylesheet" href="resources/query.css" />
+    <link rel="stylesheet" href="vendor/bootstrap.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>Shopping</title>
+</head>
+
+<body>
+    <!-- Nav tabs -->
+    <div class="navbar navbar-light  bg-light navbar-expand-lg sticky-top scroll-bottom">
+        <div class="container-fluid">
+            <a href="#" class="nav-link active">
+                <img src="resources/img/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Admin</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mentor</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Mentee List</a>
+                            <a class="dropdown-item" href="#">Dashboard</a>
+                            <a class="dropdown-item" href="#">Booking</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mentee</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Mentor</a>
+                            <a class="dropdown-item" href="#">Dashboard</a>
+                            <a class="dropdown-item" href="#">Booking</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Page</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Voice Call</a>
+                            <a class="dropdown-item" href="#">Video Call</a>
+                            <a class="dropdown-item" href="#">Search Mentors</a>
+                            <a class="dropdown-item" href="#">Component</a>
+                            <a class="dropdown-item" href="#">Invoice</a>
+                            <a class="dropdown-item" href="#">Starter Page</a>
+                            <a class="dropdown-item" href="#">Login</a>
+                            <a class="dropdown-item" href="#">Register</a>
+                            <a class="dropdown-item" href="#">Forget Password</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Blog list</a>
+                            <a class="dropdown-item" href="#">Blog Grid</a>
+                            <a class="dropdown-item" href="#">Blog Detail</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Admin</a>
+                    </li>
+                </ul>
+                <a href="#" class="nav-link">Login</a>
+                <button type="button" class="btn btn-primary mr-lg-4 " data-toggle="button"> REGISTER
+                </button>                
+            </div>
+        </div>
+    </div> 
+    <!-- header -->
+    <div class="header">
+        <div class="hero text-white">
+            <h1 class="text-white">
+                Learn Programming Languages in 
+                <span class="text-primary">AUNG</span>
+            </h1>
+            <h4>Discover the best Programming Languages for you.</h4>
+            <div class="row mt-lg-5 mx-3">
+                <div class="col-lg-9 inner-addon left-addon">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="form-control rounded-pill" placeholder="Search" />
+                </div>
+            </div>
+            <!-- <div class="row mt-lg-5 mx-3">
+                <div class="col-9 inner-addon left-addon offset-1">
+                    <i class="fas fa-school fa-2x"></i>
+                    <input type="text" class="form-control rounded-pill" placeholder="Search  Programming Languages" />
+                </div>
+                <a href="#"><i class=" fas fa-search text-white fa-2x"></i></a>
+            </div> -->
+        </div>
+    </div>
+    <!-- work section -->
+    <section class="work">
+        <h4>MENTORING FLOW</h4>
+        <h2>How does it works ?</h2>
+        <p>
+            Do you want to move on next step? Choose your most popular leaning mentors, it will help you to achieve your professional goals.
+        </p>
+        <div class="container">
+            <div class="d-flex  flex-wrap justify-content-around">
+                <div class="item">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <div>
+                        <h5>Sign up</h5>
+                        <p>Are you looking to join online Learning? Now it's very simple, Now Sign up</p>
+                    </div>
+                </div>
+                <div class=" item">
+                    <i class="fas fa-users"></i>
+                    <div>
+                        <h5>Collaborate</h5>
+                        <p>Collaborate on your own timing, by scheduling with mentor booking</p>
+                    </div>
+                </div>
+                <div class=" item">
+                    <i class="fas fa-expand-arrows-alt"></i>
+                    <div>
+                        <h5>Improve & Get Back</h5>
+                        <p>you can gather different skill set, and you can become mentor too</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- mentors section -->
+    <section class="mentors">
+        <h4>MENTORING GOALS</h4>
+        <h2>Popular Programming Languages</h2>
+        <p>
+            Do you want to move on next step? Choose your most popular programming languages, it will help you to achieve your professional goals.
+        </p>
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-around">
+                <div class="multiple-items">
+                    <div class="card">
+                        <img src="resources/img/js.jpg" class="card-img-top" alt="team-1.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Javascript Course</h5>
+                            <!-- <h6>Web Developer</h6> -->
+                            <div class="py-lg-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="card-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Yangon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="multiple-items">
+                    <div class="card">
+                        <img src="resources/img/react.jpg" class="card-img-top" alt="team-1.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">React Course</h5>
+                            <!-- <h6>Web Designer</h6> -->
+                            <div class="py-lg-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="card-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Yangon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="multiple-items">
+                    <div class="card">
+                        <img src="resources/img/node.jpg" class="card-img-top" alt="team-1.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Node js Course</h5>
+                            <!-- <h6>Frontend Developer</h6> -->
+                            <div class="py-lg-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="card-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Yangon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="multiple-items">
+                    <div class="card">
+                        <img src="resources/img/php.jpg" class="card-img-top" alt="team-1.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Php Course</h5>
+                            <!-- <h6>React Developer</h6> -->
+                            <div class="py-lg-3">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="card-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Yangon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- paths -->
+    <section class="paths">
+        <h4>CHOOSE THE</h4>
+        <h2>Different All Learning Paths</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        </p>
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-around">
+                <div class="img">
+                    <img src="resources/img/code.jpg" alt="">
+                    <h6>Bootstrap</h6>
+                </div>
+                <div class="img"><img src="resources/img/code.jpg" alt="">
+                    <h6>Javascript</h6>
+                </div>
+                <div class="img"><img src="resources/img/code.jpg" alt="">
+                    <h6>Python</h6>
+                </div>
+                <div class="img"><img src="resources/img/code.jpg" alt="">
+                    <h6>PHP</h6>
+                </div>
+            </div>
+            <div class="d-flex  flex-wrap justify-content-around">
+                <div class="img"><img src="resources/img/code.jpg" alt="">
+                    <h6>Node js</h6>
+                </div>
+                <div class="img"><img src="resources/img/code.jpg" alt="">
+                    <h6>Laravel</h6>
+                </div>
+                <div class="img"><img src="resources/img/code.jpg"" alt="">
+                    <h6>React</h6>
+                </div>
+                <div class="img"><img src="resources/img/code.jpg" alt="">
+                    <h6>Web Design</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news section -->
+    <section class="mentors">
+        <h4>Lorem ipsum dolor</h4>
+        <h2>The Blogs & News</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-around">
+                <div class="items">
+                    <div class="card">
+                        <img src="resources/img/js.jpg" class="card-img-top" alt="team-1.jpg">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <span>Javascript</span> <br>
+                                <span><i class="far fa-clock"></i> 01 Dec 2021</span>
+                                <h5 class="pt-lg-2">What is Javascript?</h5>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="card">
+                        <img src="resources/img/react.jpg" class="card-img-top" alt="team-1.jpg">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <span>React</span> <br>
+                                <span><i class="far fa-clock"></i> 01 Dec 2021</span>
+                                <h5 class="pt-lg-2">What is React?</h5>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="card">
+                        <img src="resources/img/node.jpg" class="card-img-top" alt="team-1.jpg">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <span>Node js</span> <br>
+                                <span><i class="far fa-clock"></i> 01 Dec 2021</span>
+                                <h5 class="pt-lg-2">What is Node js?</h5>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="card">
+                        <img src="resources/img/php.jpg" class="card-img-top" alt="team-1.jpg">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <span>php</span> <br>
+                                <span><i class="far fa-clock"></i> 01 Dec 2021</span>
+                                <h5 class="pt-lg-2">What is Php?</h5>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bg section -->
+    <section class="background">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h1>500+</h1>
+                    <h3>HAPPY CLIENTS</h3>
+                </div>
+                <div class="col-4">
+                    <h1>120+</h1>
+                    <h3>ONLINE APPOINTMENTS</h3>
+                </div>
+                <div class="col-4">
+                    <h1>100%</h1>
+                    <h3>JOB SATISFACTION</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <section class="footer">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img src="resources/img/logo.png" alt="logo.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-md-3">
+                <h5>For Mentee</h5>
+                <ul>
+                    <a href="">
+                        <li>Search Mentors</li>
+                    </a>
+                    <a href="">
+                        <li>Login</li>
+                    </a>
+                    <a href="">
+                        <li>Register</li>
+                    </a>
+                    <a href="">
+                        <li>Booking</li>
+                    </a>
+                    <a href="">
+                        <li>Mentee Dashboard</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>For Mentor</h5>
+                <ul>
+                    <a href="">
+                        <li>Booking</li>
+                    </a>
+                    <a href="">
+                        <li>Login</li>
+                    </a>
+                    <a href="">
+                        <li>Chat</li>
+                    </a>
+                    <a href="">
+                        <li>Booking</li>
+                    </a>
+                    <a href="">
+                        <li>Mentor Dashboard</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-md-3 contact">
+                <h5>Contact Us</h5>
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>3556 Beech Street, San Francisco, California, CA 94108</span>
+                </div>
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <span> +1 315 369 5943</span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>mentoring@example.com</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright text-center">
+            <p>© 2020 Mentoring. All rights reserved.</p>
+        </div>
+    </section>
+    <script src="vendor/jquery.js"></script>
+    <script src="resources/script.js"></script>
+    <script src="vendor/bootstrap.js"></script>
+
+</html>
